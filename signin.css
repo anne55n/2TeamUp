@@ -1,7 +1,7 @@
 @import "bourbon";
 
 body {
-   background-image: url("light.jpg");  
+   background: linear-gradient(to right, #C78CE4, #E6D7EE); 
 }
 
 .wrapper {  
