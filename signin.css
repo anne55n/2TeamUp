@@ -1,0 +1,71 @@
+@import "bourbon";
+
+body {
+   background-image: url("light.jpg");  
+}
+
+.wrapper {  
+  margin-top: 230px;
+  margin-bottom: 70px;
+
+}
+
+.form-signin {
+  max-width: 380px;
+  height: 350px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-image: url("blue.jpg");
+  border-radius: 10px;
+  .form-signin-heading,
+  .checkbox {
+    margin-bottom: 30px;
+  }
+
+  .checkbox1 {
+    font-weight: normal;
+    margin-right: 10%;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.btn{
+  background-color:#C06BF0;
+  color:white;
+}
+.btn:hover{
+  color:white;
+  background-color: #C875F8;
+}
+
+h2 {
+  font-size: 45px;
+  margin-left: 20px;
+}
+.logo{
+  margin-top: -30%;
+  margin-left: 75%;
+}
